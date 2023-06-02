@@ -46,7 +46,7 @@ function App() {
   return (
     <div>
       <Modal
-        title={taskToUpdate!.title}
+        title={taskToUpdate?.title}
         hide={getHideModal}
         hideOrShow={hideOrShowModal}
         children={

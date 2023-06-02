@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 
 //CSS
 import styles from "./Modal.module.css";
 
 interface Props {
-  title: string;
+  title: string | undefined;
   hide: boolean;
   children: React.ReactNode;
   hideOrShow: (display: boolean) => void;
